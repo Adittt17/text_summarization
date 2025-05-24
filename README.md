@@ -7,6 +7,15 @@ This repository contains the machine learning model used for Textualize, a docum
 - **Model Type**: `t5-small`
 - **Fine-tuning Dataset**: [alexfabbri/multi_news](https://huggingface.co/datasets/alexfabbri/multi_news)
 - **File Format**: The model is saved as an `.h5` file in this repository.
+
+## Performance
+
+The model was trained and evaluated with the following performance metrics:
+
+- **Training Accuracy**: `0.9048`
+- **Validation Accuracy**: `0.9227`
+
+> Note: These accuracy values are based on sequence-level metrics and may vary depending on evaluation setup.
   
 ## Fine-Tuning Documentation
 
